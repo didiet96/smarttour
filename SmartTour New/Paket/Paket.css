@@ -1,0 +1,119 @@
+/* Background color for the body */
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+}
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  color: #fff;
+}
+p {
+  color: #fff;
+}
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #fff;
+}
+ul {
+  margin-bottom: 20px;
+  list-style-type: disc;
+  margin-left: 20px;
+  color: #fff;
+}
+
+body {
+  background-image: url("pexels-pixabay-161293.jpg");
+
+  backdrop-filter: blur(5px);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+/* Styling for the Jumbotron */
+.jumbotron {
+  background-image: url("pexels-pixabay-161293.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  text-align: center;
+  color: #fff;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+/* Styling for the Destination cards */
+.card {
+  margin-bottom: 30px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Styling for the Packages cards */
+.card-title {
+  margin-bottom: 10px;
+}
+
+/* Styling for the Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+/* Styling for the Learn more and Book now buttons */
+.btn-primary {
+  background-color: #333;
+  border-color: #333;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Styling for the Learn more and Book now buttons when disabled */
+.btn-primary.disabled,
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Styling for the disabled state of the navbar toggler button */
+.navbar-toggler[aria-expanded="false"] {
+  border-color: #fff;
+}

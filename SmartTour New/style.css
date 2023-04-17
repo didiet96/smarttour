@@ -1,0 +1,154 @@
+/* Background color for the body */
+body {
+  background-color: #f4f4f4;
+}
+
+/* Styling for the navigation bar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+/* Styling for the Jumbotron */
+.jumbotron {
+  background-image: url("Header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  text-align: center;
+  color: #333;
+}
+
+.jumbotron .container h1 {
+  color: #1aa4da;
+}
+
+.jumbotron span {
+  color: orange;
+}
+
+.jumbotron .lead p {
+  color: floralwhite;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Styling for the Destination cards */
+.card {
+  margin-bottom: 30px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Styling for the Packages cards */
+.card-title {
+  margin-bottom: 10px;
+}
+
+/* Styling for the Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+/* Styling for the Learn more and Book now buttons */
+.btn-primary {
+  background-color: #333;
+  border-color: #333;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Styling for the Learn more and Book now buttons when disabled */
+.btn-primary.disabled,
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Styling for the disabled state of the navbar toggler button */
+.navbar-toggler[aria-expanded="false"] {
+  border-color: #fff;
+}
+
+/* Image Grid */
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-grid img {
+  width: calc(25% - 10px);
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.image-grid {
+  position: relative;
+  display: inline-block;
+}
+
+.image-info {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.image-grid:hover .image-info {
+  display: block;
+}
+
+/* Media Queries */
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 65%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
